@@ -10,9 +10,9 @@ public class Mod5 {
 
        
     do {
-        System.out.println("Would you like to see a Cat or Dog");
+        System.out.println("Would you like to see a Cat or Dog or Fish");
        aniC = scan.nextLine().toLowerCase();
-        System.out.println("You picked" + aniC);
+        System.out.println("You picked  " + aniC);
 
 
         if(aniC.equals("Cat")) {
@@ -27,12 +27,23 @@ public class Mod5 {
                     " (_(_/-(_/\"");
             
             
-        } else{
-            System.out.println("INVALID" + "Enter Dog or Cat Please");
+        } else if (aniC.equals("Fish")){
+            System.out.println("\"\\\" o\\\\n" + //
+                    "o      ______/~/~/~/__           /((\\\\n" + //
+                    "  o  // __            ====__    /_((\\\\n" + //
+                    " o  //  @))       ))))      ===/__((\\\\n" + //
+                    "    ))           )))))))        __((\\\\n" + //
+                    "    \\\\\\\\\\\\\\\\     \\\\\\\\)     ))))    __===\\\\\\\\ _((\\\\n" + //
+                    "     \\\\\\\\\\\\\\\\_______________====      \\\\\\\\_((\\\\n" + //
+                    "                                 \\\\\\\\((\\\"\"");
+        }
+        
+        else{
+            System.out.println("INVALID " + "Enter Dog or Cat or Fish Please");
         }
 
 
-    } while (!aniC.equals("dog") && !aniC.equals("cat"));
+    } while (!aniC.equals("Dog") && !aniC.equals("Cat") && !aniC.equals("Fish"));
 
     scan.close();
        
