@@ -7,7 +7,7 @@ public class Mod5 {
         System.out.println("You picked" + aniC);
 
         if(aniC.equals("Cat")); 
-        System.out.println("Cat ASCII ART HERE");
+        System.out.println("Cat ASCII ART HERE"); 
 
 
     }
